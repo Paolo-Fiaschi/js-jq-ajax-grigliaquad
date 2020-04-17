@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://c8.alamy.com/compit/trpecn/moderno-sfondo-astratto-con-molti-colori-pennello-sfumato-di-arte-e-design-unico-artigianale-con-vernici-a-olio-e-vernici-acriliche-trpecn.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 90%;
+  flex-wrap: wrap;
+}
+.square{
+  border: 1px solid lightgrey;
+  width: calc(100% / 6);
+  height: calc(100% / 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: white;
+}
+.square:hover{
+  cursor: pointer;
+  box-shadow: 5px 5px 25px;
+
+}
+.orange{
+  background: #ca7316;
+  box-shadow: 5px 5px 25px;
+}
+.blue{
+  background: #247d7d;
+  box-shadow: 5px 5px 25px;
+}
+.clicked{
+  box-shadow: 65px 65px 65px;
+}
+
+h2{
+  font-size: 30px;
+  transition: 2s;
+  transition-timing-function: ease-in-out;
+}
