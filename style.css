@@ -49,7 +49,5 @@ body{
 }
 
 h2{
-  font-size: 30px;
-  transition: 2s;
-  transition-timing-function: ease-in-out;
+  font-size: 45px;
 }
